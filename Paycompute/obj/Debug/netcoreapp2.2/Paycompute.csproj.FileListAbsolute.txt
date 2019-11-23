@@ -38,3 +38,5 @@ C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Paycom
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Paycompute.pdb
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Index.g.cshtml.cs
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Create.g.cshtml.cs
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Edit.g.cshtml.cs
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Detail.g.cshtml.cs
