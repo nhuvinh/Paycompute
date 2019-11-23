@@ -1,0 +1,14 @@
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\bin\Debug\netcoreapp2.2\Paycompute.Services.deps.json
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\bin\Debug\netcoreapp2.2\Paycompute.Services.dll
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\bin\Debug\netcoreapp2.2\Paycompute.Services.pdb
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\bin\Debug\netcoreapp2.2\Paycompute.Entity.dll
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\bin\Debug\netcoreapp2.2\Paycompute.Persitence.dll
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\bin\Debug\netcoreapp2.2\Paycompute.Entity.pdb
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\bin\Debug\netcoreapp2.2\Paycompute.Persitence.pdb
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.csprojAssemblyReference.cache
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.csproj.CoreCompileInputs.cache
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.AssemblyInfoInputs.cache
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.AssemblyInfo.cs
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.csproj.CopyComplete
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.dll
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.pdb
