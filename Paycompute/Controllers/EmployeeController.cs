@@ -199,5 +199,27 @@ namespace Paycompute.Controllers
 												return View(viewModel);
 								}
 
+								[HttpGet]
+								public IActionResult Delete(int id)
+								{
+												var employee = _employeeService.GetById(id);
+												if (employee == null) return NotFound();
+
+												var viewModel = new EmployeeDeleteViewModel
+												{
+																Id = employee.Id,
+																FullName = employee.FullName
+												};
+												return View(viewModel);
+								}
+
+								[HttpPost]
+								[ValidateAntiForgeryToken]
+								public async Task<IActionResult> Delete(EmployeeDeleteViewModel viewModel)
+								{
+												await _employeeService.Delete(viewModel.Id);
+												return RedirectToAction(nameof(Index));
+								}
+
     }
 }
