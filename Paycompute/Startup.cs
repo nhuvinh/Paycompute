@@ -13,6 +13,8 @@ using Microsoft.EntityFrameworkCore;
 using Paycompute.Persitence;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Paycompute.Services;
+using Paycompute.Services.Implementation;
 
 namespace Paycompute
 {
@@ -43,6 +45,8 @@ namespace Paycompute
 																.AddEntityFrameworkStores<ApplicationDbContext>();
 
 												services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+												// Add Service to the Container to make the service available for Dependency Injection
+												services.AddScoped<IEmployeeService, EmployeeService>();
 								}
 
 								// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
