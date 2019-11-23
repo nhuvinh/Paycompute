@@ -1,26 +1,16 @@
-﻿using System;
+﻿using Paycompute.Entity;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-
-namespace Paycompute.Entity
+namespace Paycompute.Models
 {
-				public class Employee
+				public class EmployeeDetailViewModel
 				{
 								public int Id { get; set; }
 
-								[Required]
 								public string EmployeeNo { get; set; }
-
-								[Required, MaxLength(50)]
-								public string FirstName { get; set; }
-
-								[MaxLength(50)]
-								public string MiddleName { get; set; }
-
-								[Required, MaxLength(50)]
-								public string LastName { get; set; }
 
 								public string FullName { get; set; }
 
@@ -36,7 +26,6 @@ namespace Paycompute.Entity
 
 								public string Email { get; set; }
 
-								[Required, MaxLength(50)]
 								public string NationalInsuranceNo { get; set; }
 
 								public PaymentMethod PaymentMethod { get; set; }
@@ -45,18 +34,12 @@ namespace Paycompute.Entity
 
 								public UnionMember UnionMember { get; set; }
 
-								[Required, MaxLength(50)]
 								public string Address { get; set; }
 
-								[Required, MaxLength(50)]
 								public string City { get; set; }
 
-								[Required, MaxLength(50)]
 								public string PosteCode { get; set; }
 
 								public string PhoneNumber { get; set; }
-
-								public IEnumerable<PaymentRecord> PaymentRecords { get; set; }
-
 				}
 }

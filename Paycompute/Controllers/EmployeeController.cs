@@ -170,5 +170,34 @@ namespace Paycompute.Controllers
 												return View();
 								}
 
+								[HttpGet]
+								public IActionResult Detail(int id)
+								{
+												var employee = _employeeService.GetById(id);
+												if (employee == null) return NotFound();
+
+												EmployeeDetailViewModel viewModel = new EmployeeDetailViewModel
+												{
+																Id = employee.Id,
+																EmployeeNo = employee.EmployeeNo,
+																FullName = employee.FullName,
+																Gender = employee.Gender,
+																Email = employee.Email,
+																DOB = employee.DOB,
+																DateJoined = employee.DateJoined,
+																Designation = employee.Designation,
+																NationalInsuranceNo = employee.NationalInsuranceNo,
+																PaymentMethod = employee.PaymentMethod,
+																StudentLoan = employee.StudentLoan,
+																UnionMember = employee.UnionMember,
+																Address = employee.Address,
+																City = employee.City,
+																PhoneNumber = employee.PhoneNumber,
+																PosteCode = employee.PosteCode,
+																ImageUrl = employee.ImageUrl
+												};
+												return View(viewModel);
+								}
+
     }
 }
