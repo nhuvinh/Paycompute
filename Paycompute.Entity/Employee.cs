@@ -43,7 +43,7 @@ namespace Paycompute.Entity
 
 								public StudentLoan StudentLoan { get; set; }
 
-								public UnionMember MyProperty { get; set; }
+								public UnionMember UnionMember { get; set; }
 
 								[Required, MaxLength(50)]
 								public string Address { get; set; }
@@ -55,5 +55,7 @@ namespace Paycompute.Entity
 								public string PosteCode { get; set; }
 
 								public IEnumerable<PaymentRecord> PaymentRecords { get; set; }
+
+								public string PhoneNumber { get; set; }
 				}
 }

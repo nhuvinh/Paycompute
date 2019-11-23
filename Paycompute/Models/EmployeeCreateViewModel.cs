@@ -37,7 +37,7 @@ namespace Paycompute.Models
 								public DateTime DOB { get; set; }
 
 								[DataType(DataType.Date), Display(Name = "Date Joined")]
-								public DateTime DateJoined { get; set; }
+								public DateTime DateJoined { get; set; } = DateTime.UtcNow;
 
 								[Required(ErrorMessage = "Job Role is Required"), StringLength(100)]
 								public string Designation { get; set; }
@@ -56,7 +56,7 @@ namespace Paycompute.Models
 								public StudentLoan StudentLoan { get; set; }
 
 								[Display(Name ="Union Member")]
-								public UnionMember MyProperty { get; set; }
+								public UnionMember UnionMember { get; set; }
 
 								[Required, StringLength(150)]
 								public string Address { get; set; }
@@ -67,6 +67,8 @@ namespace Paycompute.Models
 								[Required, StringLength(50)]
 								[Display(Name ="Postal Code")]
 								public string PosteCode { get; set; }
+
+								public string PhoneNumber { get; set; }
 
 				}
 }
