@@ -9,8 +9,8 @@ using Paycompute.Services;
 
 namespace Paycompute.Controllers
 {
-    public class PayController : Controller
-    {
+				public class PayController : Controller
+				{
 								private IPayComputationService _payComputationServie;
 								private IEmployeeService _employeeService;
 								private ITaxService _taxService;
@@ -25,8 +25,8 @@ namespace Paycompute.Controllers
 								private decimal _slc;
 								private decimal _totalDeduction;
 
-								public PayController(IPayComputationService payComputationService, 
-																												IEmployeeService employeeService, 
+								public PayController(IPayComputationService payComputationService,
+																												IEmployeeService employeeService,
 																												ITaxService taxService,
 																												INationalInsuranceContributionService nationalInsuranceContributionService)
 								{
@@ -36,8 +36,8 @@ namespace Paycompute.Controllers
 												_nationalInsuranceContributionService = nationalInsuranceContributionService;
 								}
 
-        public IActionResult Index()
-        {
+								public IActionResult Index()
+								{
 												var payRecords = _payComputationServie.GetAll().Select(pay => new PaymentRecordIndexViewModel
 												{
 																Id = pay.Id,
@@ -51,8 +51,8 @@ namespace Paycompute.Controllers
 																TotalDeduction = pay.TotalDeduction,
 																Employee = pay.Employee
 												});
-            return View(payRecords);
-        }
+												return View(payRecords);
+								}
 
 								[HttpGet]
 								public IActionResult Create()
