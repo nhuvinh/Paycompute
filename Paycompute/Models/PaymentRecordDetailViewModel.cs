@@ -29,6 +29,8 @@ namespace Paycompute.Models
 
 								public TaxYear TaxYear { get; set; }
 
+								public string Year { get; set; }
+
 								[Display(Name = "Tax Code")]
 								public string TaxCode { get; set; }
 
@@ -57,6 +59,9 @@ namespace Paycompute.Models
 
 								[Display(Name = "Overtime Hours")]
 								public decimal OvertimeHours { get; set; }
+
+								[Display(Name = "Overtime Rate")]
+								public decimal OvertimeRate { get; set; }
 
 								[Display(Name = "Contractual Earnings")]
 								public decimal ContractualEarnings { get; set; }
