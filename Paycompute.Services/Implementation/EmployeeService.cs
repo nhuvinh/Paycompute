@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Paycompute.Entity;
 using Paycompute.Persitence;
 using System.Linq;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Paycompute.Services.Implementation
 {
@@ -33,6 +34,15 @@ namespace Paycompute.Services.Implementation
 								public IEnumerable<Employee> GetAll()
 								{
 												return _context.Employees;
+								}
+
+								public IEnumerable<SelectListItem> GetAllEmployeesForPayRoll()
+								{
+												return GetAll().Select(emp => new SelectListItem()
+												{
+																Text = emp.FullName,
+																Value = emp.Id.ToString()
+												});
 								}
 
 								public Employee GetById(int employeeId) => _context.Employees.SingleOrDefault(e => e.Id == employeeId);
