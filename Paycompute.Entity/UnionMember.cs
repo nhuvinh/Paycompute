@@ -1,7 +1,7 @@
 ﻿namespace Paycompute.Entity
 {
-				public enum UnionMember
-				{
-								No, Yes
-				}
+    public enum UnionMember
+    {
+        No, Yes
+    }
 }

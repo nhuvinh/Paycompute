@@ -1,6 +1,5 @@
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Persitence\bin\Debug\netcoreapp2.2\Paycompute.Entity.dll
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Persitence\obj\Debug\netcoreapp2.2\Paycompute.Persitence.csprojAssemblyReference.cache
-C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Persitence\obj\Debug\netcoreapp2.2\Paycompute.Persitence.csproj.CoreCompileInputs.cache
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Persitence\obj\Debug\netcoreapp2.2\Paycompute.Persitence.AssemblyInfoInputs.cache
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Persitence\obj\Debug\netcoreapp2.2\Paycompute.Persitence.AssemblyInfo.cs
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Persitence\bin\Debug\netcoreapp2.2\Paycompute.Persitence.deps.json

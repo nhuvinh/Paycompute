@@ -1,8 +1,8 @@
 ﻿namespace Paycompute.Entity
 {
-				public enum StudentLoan
-				{
-								Yes,
-								No
-				}
+    public enum StudentLoan
+    {
+        Yes,
+        No
+    }
 }

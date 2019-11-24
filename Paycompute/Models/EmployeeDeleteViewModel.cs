@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace Paycompute.Models
 {
-				public class EmployeeDeleteViewModel
-				{
-								public int Id { get; set; }
-								public string FullName { get; set; }
-				}
+    public class EmployeeDeleteViewModel
+    {
+        public int Id { get; set; }
+        public string FullName { get; set; }
+    }
 }
