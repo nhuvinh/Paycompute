@@ -34,5 +34,12 @@ namespace Paycompute.Controllers
 												});
             return View(payRecords);
         }
+
+								[HttpGet]
+								public IActionResult Create()
+								{
+												return View();
+
+								}
     }
 }
