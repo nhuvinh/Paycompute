@@ -10,6 +10,7 @@ namespace Paycompute.Services
 				public interface IPayComputationService
 				{
 								Task CreateAsync(PaymentRecord paymentRecord);
+								TaxYear GetTaxYearById(int id);
 								IEnumerable<PaymentRecord> GetAll();
 								IEnumerable<SelectListItem> GetAllTaxYear();
 								decimal OvertimeHours(decimal hoursWorked, decimal contractualHours);

@@ -97,5 +97,10 @@ namespace Paycompute.Services.Implementation
 								{
 												return _context.PaymentRecords.Where(p => p.Id == id).FirstOrDefault();
 								}
+
+								public TaxYear GetTaxYearById(int id)
+								{
+												return _context.TaxYears.Where(y => y.Id == id).FirstOrDefault();
+								}
 				}
 }
