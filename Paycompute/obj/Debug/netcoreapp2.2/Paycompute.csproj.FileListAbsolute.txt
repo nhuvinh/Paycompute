@@ -42,3 +42,6 @@ C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Detail.g.cshtml.cs
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Delete.g.cshtml.cs
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Pay\Index.g.cshtml.cs
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Pay\Create.g.cshtml.cs
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Pay\Detail.g.cshtml.cs
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute\obj\Debug\netcoreapp2.2\Razor\Views\Pay\Payslip.g.cshtml.cs

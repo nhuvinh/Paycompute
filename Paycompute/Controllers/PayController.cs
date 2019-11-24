@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Paycompute.Entity;
 using Paycompute.Models;
 using Paycompute.Services;
+using RotativaCore;
 
 namespace Paycompute.Controllers
 {
@@ -175,6 +176,15 @@ namespace Paycompute.Controllers
 																NetPayment = paymentRecord.NetPayment
 												};
 												return View(viewModel);
+								}
+
+								public IActionResult GeneratePayslipPDF(int id)
+								{
+												var paySlip = new ActionAsPdf("Payslip", new { id = id })
+												{
+																FileName = "payslip.pdf"
+												};
+												return paySlip;
 								}
 				}
 }
