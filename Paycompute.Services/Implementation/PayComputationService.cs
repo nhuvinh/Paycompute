@@ -59,7 +59,6 @@ namespace Paycompute.Services.Implementation
 
 								public decimal NetPay(decimal totalEarnings, decimal totalDeduction) => totalEarnings - totalDeduction;
 
-
 								public decimal OvertimeEarnings(decimal overtimeRate, decimal overtimeHours)
 								{
 												return overtimeHours * overtimeRate;

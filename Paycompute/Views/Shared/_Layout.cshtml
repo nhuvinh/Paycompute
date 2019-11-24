@@ -26,7 +26,7 @@
 																<a class="navbar-brand brand-logo"><img src="~/images/Paycompute2.gif" alt="logo" /></a>
 												</div>
 												<div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-															<partial name="_LoginPartial" />
+																<partial name="_LoginPartial" />
 												</div>
 								</nav>
 								<div class="container-fluid page-body-wrapper">
@@ -56,7 +56,7 @@
 																												<ul class="nav flex-column sub-menu">
 																																<li class="nav-item"><a class="nav-link" asp-controller="Pay" asp-action="Create"> New Pay</a></li>
 																																<li class="nav-item"><a class="nav-link" asp-controller="Pay" asp-action="Index"> Payment Records</a></li>
-																																																																																																																																
+
 																												</ul>
 																								</div>
 																				</li>
@@ -67,6 +67,7 @@
 																<div class="content-wrapper">
 																				@RenderBody()
 																</div>
+																<br />
 																<footer class="footer">
 																				<p> &copy; @DateTime.UtcNow.Year - Paycompute - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></p>
 																</footer>

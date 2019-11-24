@@ -12,3 +12,5 @@ C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.csproj.CopyComplete
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.dll
 C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\obj\Debug\netcoreapp2.2\Paycompute.Services.pdb
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\nhuvi\source\repos\Paycompute\Paycompute.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
